@@ -1,9 +1,11 @@
 import { assetPath } from "@/shared/lib/assetPath";
 import Image from "next/image";
+import { ScrollIndicator } from "@/shared/components/ScrollIndicator";
 
 export function AboutSection() {
   return (
-    <section id="estudio" aria-labelledby="studio-title" className="relative isolate overflow-hidden bg-[#161717] text-surface-paper">
+    <section id="estudio" aria-labelledby="studio-title" className="apple-stack-section apple-stack-studio dark-section isolate overflow-hidden text-surface-paper">
+      <ScrollIndicator targetId="projetos" direction="up" dark={true} />
       <Image src={assetPath("/brand/studio-moon.webp")} alt="" fill sizes="100vw" unoptimized className="pointer-events-none -z-10 object-cover object-right opacity-40 md:opacity-70" />
       <div className="site-shell py-16 md:py-20">
         <div className="mb-12 flex items-center gap-8"><Image src={assetPath("/brand/symbol-white.webp")} alt="" width={56} height={56} unoptimized /><p className="eyebrow">02 / O estúdio</p></div>

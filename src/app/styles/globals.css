@@ -22,3 +22,25 @@ a:focus-visible { outline: 2px solid #406e73; outline-offset: 6px; border-radius
 .skip-link:focus { top: 16px; }
 @media (min-width: 768px) { .site-shell { width: min(100% - 112px, 1240px); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.apple-stack-section {
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
+  background-color: var(--color-surface-paper);
+}
+.apple-stack-hero { z-index: 10; }
+.apple-stack-projects { z-index: 20; }
+.apple-stack-studio { z-index: 30; }
+.apple-stack-contact { z-index: 40; padding-inline: max(24px, calc((100vw - 1240px) / 2)); }
+.apple-stack-section.dark-section {
+  background-color: #161717;
+}
+@media (min-width: 768px) {
+  .phone-frame { width: min(270px, calc(45svh - 100px)); }
+}
+@media (max-width: 767px) {
+  .apple-stack-projects,
+  .apple-stack-studio,
+  .apple-stack-contact { position: relative; }
+}

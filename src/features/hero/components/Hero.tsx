@@ -1,10 +1,11 @@
 import { HeroContent } from "./HeroContent";
 import { BrandSymbol } from "./BrandSymbol";
+import { ScrollIndicator } from "@/shared/components/ScrollIndicator";
 
 export function Hero() {
   return (
-    <section className="site-shell grid min-h-[570px] items-center gap-12 py-16 md:grid-cols-2 md:gap-16 md:py-24">
-      <div className="contents">
+    <section className="apple-stack-section apple-stack-hero grid items-center py-16 md:py-24">
+      <div className="site-shell grid items-center gap-12 md:grid-cols-2 md:gap-16">
         <div className="w-full min-w-0">
           <HeroContent />
         </div>
@@ -12,6 +13,7 @@ export function Hero() {
           <BrandSymbol />
         </div>
       </div>
+      <ScrollIndicator targetId="projetos" direction="down" />
     </section>
   );
 }

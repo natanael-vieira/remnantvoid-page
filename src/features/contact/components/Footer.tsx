@@ -2,13 +2,13 @@ import { Wordmark } from "@/shared/components/Wordmark";
 
 export function Footer() {
   return (
-    <footer id="contato" className="site-shell pt-14 pb-8 md:pt-16">
+    <footer id="contato" className="apple-stack-section apple-stack-contact flex flex-col justify-between bg-surface-paper pt-14 pb-8 md:pt-16">
       <h2 className="max-w-lg text-4xl leading-[1.15] tracking-[-0.05em] md:text-5xl">
         Vamos criar algo
         <br />
         que permaneça.
       </h2>
-      <div className="mt-6 flex justify-center md:justify-start">
+      <div className="mt-6 flex justify-end">
         <a
           href="mailto:natnaelsales@gmail.com"
           className="inline-flex gap-5 border-b border-content-primary pb-1 text-base"
