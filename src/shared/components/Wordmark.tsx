@@ -3,13 +3,12 @@ import Image from "next/image";
 
 export function Wordmark({ small = false }: { small?: boolean }) {
   return (
-    <Image
-      src={assetPath("/brand/logo-primary-black.webp")}
-      alt="remnantvoid — independent software studio"
-      width={630}
-      height={140}
-      className={`h-auto mix-blend-multiply ${small ? "w-48" : "w-60"}`}
-      unoptimized
-    />
+    <span className={`wordmark ${small ? "wordmark-small" : ""}`}>
+      <span className="wordmark-name">
+        <span className="font-light">remnant</span>
+        <strong className="font-bold">v<span className="wordmark-orbit"><span className="sr-only">o</span><Image src={assetPath("/brand/symbol-black.png")} alt="" width={1024} height={1024} unoptimized /></span>id</strong>
+      </span>
+      <span className="wordmark-subtitle">independent software studio</span>
+    </span>
   );
 }

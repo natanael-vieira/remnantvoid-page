@@ -3,10 +3,9 @@ import { Wordmark } from "./Wordmark";
 export function Header() {
   return (
     <header
-      id="inicio"
       className="site-shell flex flex-wrap items-center justify-between gap-6 py-7 md:py-9"
     >
-      <a href="#inicio" aria-label="Remnant Void - início">
+      <a href="#conteudo" aria-label="Remnant Void - início">
         <Wordmark />
       </a>
       <nav

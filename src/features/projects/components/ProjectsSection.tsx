@@ -4,15 +4,15 @@ import { ScrollIndicator } from "@/shared/components/ScrollIndicator";
 
 export function ProjectsSection() {
   return (
-    <section id="projetos" aria-labelledby="projects-title" className="apple-stack-section apple-stack-projects border-t border-border-subtle">
-      <ScrollIndicator targetId="inicio" direction="up" />
+    <section id="projetos" aria-labelledby="projects-title" className="apple-stack-section apple-stack-projects flex flex-col border-t border-border-subtle">
+      <ScrollIndicator targetId="conteudo" direction="up" />
       <div className="border-b border-border-subtle">
         <div className="site-shell flex items-center justify-between gap-4 py-6">
           <h2 id="projects-title" className="eyebrow">01 / Projetos</h2>
           <span className="text-xs tracking-widest text-content-secondary">Feitos com intenção</span>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-1 flex-col justify-center">
         {projects.map((p) => (
           <ProjectCard key={p.id} project={p} />
         ))}
