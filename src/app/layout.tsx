@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     "Estúdio independente de software. Ideias transformadas em produtos digitais para a vida real.",
   icons: {
     icon: [
-      { url: assetPath("/brand/icons/light-32.png"), sizes: "32x32", type: "image/png", media: "(prefers-color-scheme: light)" },
-      { url: assetPath("/brand/icons/dark-32.png"), sizes: "32x32", type: "image/png", media: "(prefers-color-scheme: dark)" },
+      { url: assetPath("/brand/icons/favicon-black.png"), sizes: "32x32", type: "image/png", media: "(prefers-color-scheme: light)" },
+      { url: assetPath("/brand/icons/favicon-white.png"), sizes: "32x32", type: "image/png", media: "(prefers-color-scheme: dark)" },
     ],
     apple: [{ url: assetPath("/brand/icons/dark-180.png"), sizes: "180x180", type: "image/png" }],
   },
