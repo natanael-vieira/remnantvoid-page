@@ -11,7 +11,7 @@ export function Footer() {
           <br />
           que permaneça.
         </h2>
-        <div className="mt-6 flex justify-end lg:justify-start">
+        <div className="mt-6 flex justify-center md:justify-start">
           <a
             href="mailto:natnaelsales@gmail.com"
             className="inline-flex gap-5 border-b border-content-primary pb-1 text-base"

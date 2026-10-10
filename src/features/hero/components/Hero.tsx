@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section id="inicio" className="apple-stack-section apple-stack-hero flex flex-col">
       <Header />
-      <div className="site-shell grid flex-1 items-center gap-12 py-10 md:grid-cols-2 md:gap-16 md:py-16">
+      <div className="site-shell grid flex-1 items-center gap-6 py-6 md:grid-cols-2 md:gap-16 md:py-16">
         <div className="w-full min-w-0">
           <HeroContent />
         </div>

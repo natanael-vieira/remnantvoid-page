@@ -8,7 +8,7 @@ export function BrandSymbol() {
       alt=""
       width={1024}
       height={1024}
-      className="h-auto w-[270px] mx-auto md:mx-0 md:w-full md:max-w-[380px] md:ml-auto md:-mr-14 mix-blend-multiply"
+      className="hero-brand-symbol h-auto w-[270px] mx-auto md:mx-0 md:w-full md:max-w-[380px] md:ml-auto md:-mr-14 mix-blend-multiply"
       preload
       unoptimized
     />

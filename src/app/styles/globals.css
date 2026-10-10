@@ -47,6 +47,12 @@ a:focus-visible { outline: 2px solid #406e73; outline-offset: 6px; border-radius
   .phone-frame { width: min(270px, calc(45svh - 100px)); }
 }
 @media (max-width: 767px) {
+  :root { --mobile-header-height: calc(104px + env(safe-area-inset-top)); }
+  .site-header { position: fixed; inset: 0 0 auto; z-index: 100; width: 100%; min-height: var(--mobile-header-height); margin: 0; padding: calc(12px + env(safe-area-inset-top)) 24px 12px; gap: 8px; background: var(--color-surface-paper); border-bottom: 1px solid #e5e5e5; }
+  .site-header nav { width: 100%; justify-content: space-between; }
+  .hero-brand-symbol { width: min(240px, 26svh); }
+  .apple-stack-section { padding-top: var(--mobile-header-height); }
+  .apple-stack-hero { z-index: 50; }
   .apple-stack-hero,
   .apple-stack-projects,
   .apple-stack-studio,

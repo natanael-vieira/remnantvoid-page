@@ -3,7 +3,7 @@ import { Wordmark } from "./Wordmark";
 export function Header() {
   return (
     <header
-      className="site-shell flex flex-wrap items-center justify-between gap-6 py-7 md:py-9"
+      className="site-header site-shell flex flex-wrap items-center justify-between gap-6 py-7 md:py-9"
     >
       <a href="#conteudo" aria-label="Remnant Void - início">
         <Wordmark />
