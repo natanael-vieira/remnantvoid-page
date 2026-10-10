@@ -18,8 +18,8 @@ a:focus-visible { outline: 2px solid #406e73; outline-offset: 6px; border-radius
 .wordmark-subtitle { margin-top: .22rem; padding-left: .4em; font-size: .47rem; letter-spacing: .3em; color: #777; white-space: nowrap; }
 .wordmark-small .wordmark-name { font-size: 1.7rem; }
 .wordmark-small .wordmark-subtitle { font-size: .36rem; }
-.wordmark-orbit { display: inline-block; position: relative; width: .77em; height: .77em; margin-inline: -.02em .01em; vertical-align: -.04em; overflow: hidden; }
-.wordmark-orbit img { position: absolute; top: 50%; left: 50%; width: 1.23em; height: 1.23em; max-width: none; transform: translate(-50%, -50%); }
+.wordmark-orbit { display: inline-block; position: relative; width: .77em; height: .77em; margin-inline: -.02em .01em; vertical-align: -.04em; }
+.wordmark-orbit img { position: absolute; top: 50%; left: 50%; width: 1.18em; height: 1.18em; max-width: none; transform: translate(-50%, -50%); }
 .app-artwork { position: relative; isolation: isolate; }
 .phone-frame { max-width: 270px; margin-inline: auto; border: 8px solid #1a2023; border-radius: 40px; padding: 4px; background: #0c1012; box-shadow: 0 22px 36px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 0 0 1px #404649; }
 @media (min-width: 768px) {

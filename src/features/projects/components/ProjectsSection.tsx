@@ -4,7 +4,7 @@ import { ScrollIndicator } from "@/shared/components/ScrollIndicator";
 
 export function ProjectsSection() {
   return (
-    <section id="projetos" aria-labelledby="projects-title" className="apple-stack-section apple-stack-projects flex flex-col border-t border-border-subtle">
+    <section aria-labelledby="projects-title" className="apple-stack-section apple-stack-projects flex flex-col border-t border-border-subtle">
       <ScrollIndicator targetId="conteudo" direction="up" />
       <div className="border-b border-border-subtle">
         <div className="site-shell flex items-center justify-between gap-4 py-6">

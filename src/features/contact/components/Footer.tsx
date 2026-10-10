@@ -1,8 +1,10 @@
 import { Wordmark } from "@/shared/components/Wordmark";
+import { ScrollIndicator } from "@/shared/components/ScrollIndicator";
 
 export function Footer() {
   return (
-    <footer id="contato" className="apple-stack-section apple-stack-contact flex flex-col bg-surface-paper pt-14 pb-8 md:pt-16">
+    <footer className="apple-stack-section apple-stack-contact flex flex-col bg-surface-paper pt-14 pb-8 md:pt-16">
+      <ScrollIndicator targetId="estudio" direction="up" />
       <div className="flex flex-1 flex-col justify-center">
         <h2 className="max-w-lg text-4xl leading-[1.15] tracking-[-0.05em] md:text-5xl">
           Vamos criar algo
