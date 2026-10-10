@@ -1,4 +1,4 @@
-# Remnant Void — kit de marca
+# Remnant Void - kit de marca
 
 Arquivos extraídos e adaptados a partir do brandboard fornecido.
 

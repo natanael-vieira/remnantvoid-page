@@ -5,9 +5,10 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "remnant void — independent software studio",
+    name: "remnant void - independent software studio",
     short_name: "remnant void",
-    description: "Estúdio independente de software. Ideias, código e pessoas reais.",
+    description:
+      "Estúdio independente de software. Ideias, código e pessoas reais.",
     start_url: assetPath("/"),
     display: "standalone",
     background_color: "#fafaf8",

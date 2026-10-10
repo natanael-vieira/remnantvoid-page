@@ -7,7 +7,9 @@ export function HeroContent() {
         <strong className="font-semibold">Profundo no propósito.</strong>
       </h1>
       <p className="mt-6 max-w-lg text-lg leading-relaxed text-content-secondary">Ideias transformadas em software para a vida real.</p>
-      <a href="#projetos" className="pill-button mt-9">Explore os projetos <span aria-hidden="true">↓</span></a>
+      <div className="mt-9 flex justify-center md:justify-start">
+        <a href="#projetos" className="pill-button">Explore os projetos <span aria-hidden="true">↓</span></a>
+      </div>
     </>
   );
 }

@@ -4,11 +4,11 @@ import Image from "next/image";
 export function BrandSymbol() {
   return (
     <Image
-      src={assetPath("/brand/hero-moon-hd.webp")}
+      src={assetPath("/brand/symbol-black.png")}
       alt=""
-      width={1254}
-      height={1254}
-      className="mx-auto h-auto w-[240px] md:w-full md:max-w-[350px]"
+      width={1024}
+      height={1024}
+      className="h-auto w-[270px] mx-auto md:mx-0 md:w-full md:max-w-[380px] md:ml-auto md:-mr-14 mix-blend-multiply"
       preload
       unoptimized
     />
