@@ -1,0 +1,47 @@
+@theme {
+  /* Colors */
+  --color-surface-paper: #fafaf8;
+  --color-surface-raised: #eeede9;
+  --color-surface-inverse: #202020;
+
+  --color-content-primary: #202020;
+  --color-content-secondary: #5a5a5a;
+  --color-content-inverse: #fafaf8;
+
+  --color-border-subtle: #dcdcd6;
+
+  /* Typography */
+  --font-sans: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+
+  --text-body-min: 0.75rem;
+  --text-body: 1rem;
+  --text-label: 0.875rem;
+  --text-title: 1.5rem;
+  --text-display: 2.5rem;
+
+  /* Layout */
+  --spacing-page: 2rem;
+  --spacing-section: 4rem;
+  --spacing-content: 1rem;
+
+  /* Radius */
+  --radius-surface: 0.25rem;
+
+  /* Shadows */
+  --shadow-sheet: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Breakpoints */
+  --breakpoint-medium: 768px;
+  --breakpoint-large: 1024px;
+  --breakpoint-wide: 1440px;
+
+  /* Motion */
+  --ease-brand: cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-cursor: cursor-blink 1s step-end infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
