@@ -13,11 +13,11 @@ a:focus-visible { outline: 2px solid #406e73; outline-offset: 6px; border-radius
 .pill-button:hover { background: #404040; transform: translateY(-2px); }
 .nav-link { padding-block: 8px; border-bottom: 1px solid transparent; }
 .nav-link:hover { border-color: currentColor; }
-.app-artwork { position: relative; isolation: isolate; border-radius: 32px; background: #f2eee7; padding: 24px 24px 18px; }
+.app-artwork { position: relative; isolation: isolate; border-radius: 32px; background: #eeeeee; padding: 24px 24px 18px; }
 .app-stripes { position: absolute; inset: 25% 0 auto; z-index: -1; display: grid; gap: 58px; }
-.app-stripes span { height: 7px; border-radius: 8px; background: #f2c8ab; margin-right: 7%; }
-.app-stripes span:nth-child(2) { background: #cec3da; margin-right: 14%; }
-.app-stripes span:nth-child(3) { background: #8babae; margin-left: 12%; }
+.app-stripes span { height: 7px; border-radius: 8px; background: #c9c9c9; margin-right: 7%; }
+.app-stripes span:nth-child(2) { background: #adadad; margin-right: 14%; }
+.app-stripes span:nth-child(3) { background: #737373; margin-left: 12%; }
 .phone-frame { max-width: 260px; margin-inline: auto; border: 7px solid #20272a; border-radius: 36px; padding: 3px; background: #101516; box-shadow: 0 18px 28px #1a1a1a24, 0 0 0 1px #757b7c; }
 .skip-link { position: fixed; top: -100px; left: 16px; z-index: 50; background: #202020; color: white; padding: 12px 20px; }
 .skip-link:focus { top: 16px; }
