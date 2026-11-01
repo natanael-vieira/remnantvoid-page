@@ -1421,7 +1421,7 @@ Criar:
 - projects.ts;
 - ProjectsSection;
 - ProjectCard;
-- AxisMind como primeiro projeto.
+- axismind como primeiro projeto.
 
 ---
 
@@ -1473,7 +1473,7 @@ A primeira versão está pronta quando:
 - Hero possui boot/reveal;
 - reduced-motion apresenta imediatamente a marca;
 - transição Hero → Projects funciona sem jank;
-- AxisMind aparece como primeiro projeto;
+- axismind aparece como primeiro projeto;
 - layouts small/medium/large/wide foram testados;
 - zoom não quebra navegação;
 - nenhum texto está abaixo do mínimo;

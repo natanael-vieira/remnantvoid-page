@@ -1,6 +1,6 @@
 # Remnant Void
 
-Página única do estúdio, com layout responsivo e apresentação do AxisMind.
+Página única do estúdio, com layout responsivo e apresentação do axismind.
 
 ## Desenvolvimento
 
