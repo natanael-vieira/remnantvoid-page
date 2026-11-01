@@ -23,7 +23,7 @@ export function ProjectCard({ project }: { project: Project }) {
       </div>
       <figure className="app-artwork flex flex-col items-center md:items-end">
         <div className="phone-frame">
-          <Image src={assetPath("/projects/axismind-hoje.webp")} alt="Tela Hoje do AxisMind, com registro de humor, novo relato e cofre de pensamentos" width={1080} height={2400} className="block h-auto w-full rounded-[32px]" unoptimized />
+          <Image src={assetPath("/projects/axismind-hoje.webp?v=2.5.4")} alt="Tela Hoje do AxisMind, com registro de humor, novo relato e cofre de pensamentos" width={1080} height={2400} className="block h-auto w-full rounded-[32px]" unoptimized />
         </div>
         <figcaption className="mt-6 text-center md:text-right eyebrow text-content-secondary">AXISMIND · UM DIÁRIO DO SEU JEITO</figcaption>
       </figure>
